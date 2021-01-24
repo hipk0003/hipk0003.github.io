@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 2rem;
+}
+/* navigation styles */
+#nav.nav{
+    background-color: #75C9C8;
+    border: none;
+    padding: 3rem;
+    margin: 0;
+    text-align: center;
+    display: block;
+    width: auto;
+}
+#nav.nav .nav-link{
+    color: black;
+}
+#home.home{
+    background-color: #80A1D4;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* about text color */
+#about.about{
+    background-color: #C0B9DD;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about.about p{
+    color: black;
+}
+.section-title{
+    color: black;
+}
+#contact.contact{
+    background-color: #DED9E2;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contact.contact .contact-form{
+    background-color: #80A1D4;
+    width: auto;
+}
+/* button style */
+#contact.contact button{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px;
+    background-color: #75C9C8;
+}
