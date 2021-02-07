@@ -46,11 +46,37 @@
     box-shadow: 10px 10px 10px black;
     border-radius: 15px;
     font-family:'Montserrat', sans-serif;
-    width: 25%;
+    width: 50%;
 }
 .apply-form{
     font-family: 'Montserrat', sans-serif;
 }
 .footer{
     background-color: yellow;
+}
+.btn{
+    background-color: #57eeab;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn2{
+    background-color: #ff8480;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
 }
