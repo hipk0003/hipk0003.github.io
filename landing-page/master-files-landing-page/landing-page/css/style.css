@@ -20,24 +20,47 @@
         width: 50%;
     }
     .btn{
-    background-color: #57eeab;
-    border-radius: 6px;
-    font-size: 30px;
-    padding: 3px 120px;
-    font-family: :'Montserrat', sans-serif;
-    margin: 8px;
+        background-color: #57eeab;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 100%;
+        border-radius: 6px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .btn2{
+        background-color: #ff8480;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 50%;
+        border-radius: 6px;
+        font-family: 'Montserrat', sans-serif;
     }
 }
+/* Tablet styles */
+@media only screen and 
 /* desktop styles */
 .logo{
     width: 40px;
 }
 .intro{
     font-family: 'Montserrat', sans-serif;
-    background-image: url("./images/bg-image/scooter.svg");
+
+}
+.logo{
+    width: 100px;
 }
 .container{
-    background-image: url("./images/bg-image/scooter.svg");
+    background-image: url("../images/bg-image/scooter.svg");
 }
 
 .apply{
@@ -46,14 +69,20 @@
     box-shadow: 10px 10px 10px black;
     border-radius: 15px;
     font-family:'Montserrat', sans-serif;
-    width: 50%;
+    width: 40%;
+}
+#fname#lname#mail#phone{
+    width: 100%;
 }
 .apply-form{
     font-family: 'Montserrat', sans-serif;
 }
+/* FOOTER STYLES */
 .footer{
     background-color: yellow;
+    font-family: 'Montserrat', sans-serif;
 }
+/* BUTTON STYLES */
 .btn{
     background-color: #57eeab;
     border: none;
