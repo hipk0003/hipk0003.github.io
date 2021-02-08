@@ -1,6 +1,6 @@
 
 /* Mobile styles */
-@media only screen and (max-width:313px){
+
     .container{
         background-color: #f7f7ff;
     }
@@ -48,13 +48,14 @@
     }
 }
 /* Tablet styles */
-@media only screen and (max-width:768px){
+@media only screen and (min-width:362px){
 .logo{
     width: 300px;
 }
 .intro
 }
 /* desktop styles */
+@media only screen and (min-width:768px)
 /* INTRO STYLES */
 .logo{
     width: 40px;
@@ -94,7 +95,7 @@
     box-shadow: 10px 10px 10px black;
     border-radius: 15px;
     font-family:'Montserrat', sans-serif;
-    width: auto;
+    width: 40%;
 }
 #fname#lname#mail#phone{
     width: auto;
