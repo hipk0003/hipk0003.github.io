@@ -19,6 +19,7 @@
     .box{
         width: auto;
     }
+    /* button styles mobile */
     .btn{
         background-color: #57eeab;
         border: none;
@@ -58,6 +59,9 @@
 .logo{
     width: 40px;
 }
+.main{
+    background-color: #f7f7ff;
+}
 .intro{
     font-family: 'Montserrat', sans-serif;
     background-color: #f7f7ff;
@@ -90,7 +94,7 @@
     box-shadow: 10px 10px 10px black;
     border-radius: 15px;
     font-family:'Montserrat', sans-serif;
-    width: 40%;
+    width: auto;
 }
 #fname#lname#mail#phone{
     width: auto;
@@ -131,7 +135,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    width: 50%;
+    width: auto;
     border-radius: 6px;
     font-family: 'Montserrat', sans-serif;
 }
