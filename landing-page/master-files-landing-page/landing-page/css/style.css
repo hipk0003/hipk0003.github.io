@@ -14,10 +14,10 @@
     box-shadow: 10px 10px 10px black;
     border-radius: 15px;
     font-family:'Montserrat', sans-serif;
-    width: 100%;
+    width: auto;
     }
     .box{
-        width: 50%;
+        width: auto;
     }
     .btn{
         background-color: #57eeab;
@@ -47,20 +47,41 @@
     }
 }
 /* Tablet styles */
-@media only screen and 
+@media only screen and (max-width:768px){
+.logo{
+    width: 300px;
+}
+.intro
+}
 /* desktop styles */
+/* INTRO STYLES */
 .logo{
     width: 40px;
 }
 .intro{
     font-family: 'Montserrat', sans-serif;
-
+    background-color: #f7f7ff;
+}
+.intro h1{
+    font-size: 50px;
+    color: #333133;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 .logo{
     width: 100px;
 }
+/* CONTAINER */
 .container{
     background-image: url("../images/bg-image/scooter.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-color: #f7f7ff;
+    
+}
+.main-container{
+    background-color: #f7f7ff;
 }
 
 .apply{
@@ -72,15 +93,20 @@
     width: 40%;
 }
 #fname#lname#mail#phone{
-    width: 100%;
+    width: auto;
 }
 .apply-form{
     font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+}
+.main-container{
+    background-color: #f7f7ff;
 }
 /* FOOTER STYLES */
 .footer{
-    background-color: yellow;
+    background-color: #fffd8c;
     font-family: 'Montserrat', sans-serif;
+    width: auto;
 }
 /* BUTTON STYLES */
 .btn{
