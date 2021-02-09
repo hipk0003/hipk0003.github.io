@@ -7,30 +7,31 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <main>
-        <section class="main-container">
-
+    <main class="main">
+        <!-- Making container around entire main code to be able to add background colour in css  -->
+        <section class="main-container"> 
+<!-- Removed scooter image because it is to be placed in css as a background image -->
             <div class="intro">
                 <img class="logo" src="./images/logo/logo.png" alt="">
                 <h1>Want to be your own boss?</h1>
                 <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
             </div>
-            
+            <!-- The beginning of the table for viewer information -->
             <section class="container">
                 <div class="apply">
                     <div class="box">
-                        <form class="apply-form" id="apply-form" action="Apply now">Apply Now</form>
+                        <form class="apply-form" id="apply-form" action="Apply-now">Apply Now</form>
                         <div class="label">
                             <label for="fname"></label>
                             <input type="text" placeholder="Firstname" id="fname" name="fname"><br><br>
                             <label for="lname"></label>
                             <input type="text" placeholder="Lastname" id="lname" name="lname"><br><br>
-                            <label for="email"></label>
+                            <label for="mail"></label>
                             <input type="text" placeholder="Email" id="mail" name="mail"><br><br>
-                            <label for="phonenumber"></label>
+                            <label for="phone"></label>
                             <input type="text" placeholder="Number" id="phone" name="phone"><br><br>
-                            <input type="checkbox">
-                            <label for="Terms" id="agree" name="agree">I agree to the terms</label>
+                            <input type="checkbox" id="term-agree">
+                            <label for="term-agree">I agree to the terms</label>
                         </div>
                         <button type="button" class="btn">Drive with us!
                         </button>
@@ -39,16 +40,18 @@
             </section>
         </section>
         </main>
+        <!-- Footer calculation of hours and city to determine profit -->
         <section class="container">
             <footer>
                 <div class="footer">
-                    <form action="Apply now">See how much you can earn with dash!</form>
-                    <label for="Thours"></label>
+                    <form action="Apply-now">See how much you can earn with dash!</form>
+                    <label for="hours"></label>
                     <input type="text" placeholder="Total Hours" id="hours" name="hours"><br><br>
-                    <label for="location"></label>
+                    <label for="city"></label>
                     <input type="text" placeholder="City" id="city" name="city"><br><br>
                     <button type="button" class="btn2">Calculate
                     </button>
+                <!-- All icons grouped together -->
                     <div class="icons">
                         <img src="./images/icons/facebook.svg" alt="facebook">
                         <img src="./images/icons/instagram.svg" alt="insta">
