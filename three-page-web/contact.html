@@ -8,7 +8,9 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.svg" alt="Company Logo">
+        <div class="logo-center">
+            <img src="images/logo.svg" alt="Company Logo" class="logo">
+        </div>
         <nav>
             <ul>
                 <li>
@@ -23,5 +25,39 @@
             </ul>
         </nav>
     </header>
+    <div class="contact-wrapper">
+        <h1>We Want to Hear From You</h1>
+        <p>If you have an idea for an activity that you think you and your fellow students would love to participate in that we are not already offering, we want to know about it!</p>
+        <img src="images/contact-img.svg" alt="contact icons">
+    </div>
+    <div class="form">
+        <form action="contact.html">
+            <input type="text" placeholder="Full Name" name="Full Name">
+            <input type="text" placeholder="Student Number" name="Student number">
+            <input type="text" placeholder="Email" name="Email">
+            <input type="text" placeholder="Message" name="Message">
+            <button id="myBtn2" title="Submit">Submit</button>
+        </form>
+    </div>
+    <div>
+        <h1>Our Location</h1>
+        <p class="ACSA">Algonquin College Students' Association</p>
+        <p>Monday to Friday – 8:30am to 6:00pm
+            1385 Woodroffe Avenue (E114)
+            Ottawa, Ontario
+            K2G 1V8
+            (613) 727-4723 x7711</p>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359533.46859494696!2d-75.80026066760601!3d45.25072030050388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1613783218781!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <footer>
+        <p class="follow">Follow Us</p>
+        <img src="icons/facebook.svg" alt="flogo">
+        <img src="icons/instagram.svg" alt="insta">
+        <img src="icons/twitter.svg" alt="twit">
+        <img src="icons/youtube.svg" alt="youtube">
+        <button onclick="topFunction()" id="myBtn" title="Back to top">Top</button>
+    </footer>
 </body>
 </html>
