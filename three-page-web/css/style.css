@@ -219,10 +219,11 @@ footer img{
     padding: 7px;
     background-color: #26A682;
     text-align: center;
+    width: auto;
 }
-.form{
-    display: flex;
-    flex-direction: column;
+.form input{
+    display: block;
+    text-align: center;
 }
 
 @media only screen and (min-width:768px){
