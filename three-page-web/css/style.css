@@ -13,6 +13,7 @@ ul li{
     list-style: none;
     margin-top: 0.5rem;
     margin-left: -2rem;
+    /* negative for margin left to center the nav */
     
 }
 li a{
@@ -30,12 +31,14 @@ h1{
     text-align: left;
     margin-left: 1rem;
 }
+/* h1 will eb styled the same for all three pages */
 p{
     color: #3C3B3A;
     font-family: 'Raleway', sans-serif;
     text-align: left;
     margin-left: 1rem;
 }
+/* p will be styled the same for all three pages */
 .started{
     background-color: #26A682;
     color: white;
@@ -60,6 +63,7 @@ p{
     width: 50%;
     height: auto;
     margin-top: 1rem;
+    /* Height auto to allow image to be responsive */
 }
 #kids{
     width: 100%;
@@ -78,6 +82,58 @@ h3{
     color: #26A682;
     margin-left: 1rem;
 }
+/* about page */
+
+.kids-img{
+    text-align: center;
+}
+#kids-img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.coffee{
+    text-align: center;
+}
+#coffee{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+/* Sponsors images div styles and image styles */
+.student-ass{
+    text-align: center;
+}
+#student-ass{
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+}
+.ac-logo{
+    text-align: center;
+}
+#ac-logo{
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+}
+.pcl{
+    text-align: center;
+}
+#pcl{
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+}
+.cibc{
+    text-align: center;
+}
+#cibc{
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+}
 .learn-more{
     background-color: #26A682;
     color: white;
@@ -93,6 +149,11 @@ h3{
     border: #26A682;
 }
 #learn-more{
+    text-align: right;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+#learn-more2{
     text-align: right;
     margin-bottom: 2rem;
     margin-right: 1rem;
@@ -143,3 +204,41 @@ footer img{
 .myBtn{
     text-align: right;
 }
+.contact-icons{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.map{
+    text-align: center;
+}
+/* contact form */
+.form{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px;
+    background-color: #26A682;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:768px){
+ul li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 0.5rem;
+    margin-left: -2rem;
+    /* negative for margin left to center the nav */     
+}
+li a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+ }
+nav ul li a{
+    display: inline;
+}
+ }
