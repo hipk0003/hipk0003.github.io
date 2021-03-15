@@ -226,19 +226,34 @@ footer img{
 }
 
 @media only screen and (min-width:768px){
+    /* nav is now being styled for horizontal appearance */
 ul li{
     text-align: center;
     text-decoration: none;
     list-style: none;
     margin-top: 0.5rem;
-    margin-left: -2rem;
-    /* negative for margin left to center the nav */     
+    margin-left: -2rem;    
 }
 li a{
     color: white;
     font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
  }
-nav ul li a{
+nav li{
     display: inline;
+    padding: 7rem;
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+/* logo adjusting for web and ipad */
+.logo-center{
+    text-align: left;
+}
+.logo{
+    width: 10%;
+    height: auto;
 }
  }
